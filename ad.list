@@ -1,4 +1,5 @@
 # Ads in Video apps
+
 // iqiyi & pps
 DOMAIN-SUFFIX,a.ckm.iqiyi.com
 DOMAIN-SUFFIX,ad.m.iqiyi.com
@@ -102,7 +103,6 @@ URL-REGEX,^https?:\/\/.+\.atm\.youku\.com
 
 // MGTV
 DOMAIN-SUFFIX,ads-api.videojj.com
-DOMAIN-SUFFIX,as.mgtv.com
 DOMAIN-SUFFIX,cdn.cmop.mgtv.com
 DOMAIN-SUFFIX,click.hunantv.com
 DOMAIN-SUFFIX,cmop.mgtv.com
@@ -258,6 +258,7 @@ DOMAIN-SUFFIX,bfshan.cn
 
 
 # REJECT
+
 // Client
 PROCESS-NAME,Jietu
 
@@ -1076,12 +1077,6 @@ DOMAIN-SUFFIX,ad-apac.doubleclick.net
 DOMAIN-SUFFIX,adapi.lenovogame.com
 DOMAIN-SUFFIX,adasad.myweb.hinet.net
 DOMAIN-SUFFIX,adash.m.taobao.com
-DOMAIN-SUFFIX,adash.man.aliyuncs.com
-DOMAIN-SUFFIX,adashbc.m.taobao.com
-DOMAIN-SUFFIX,adashbc.ut.taobao.com
-DOMAIN-SUFFIX,adash-c.ut.taobao.com
-DOMAIN-SUFFIX,adashx.m.taobao.com
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,adbana.com
 DOMAIN-SUFFIX,ad-beta.flipboard.com
 DOMAIN-SUFFIX,adbot.tw
@@ -2179,7 +2174,6 @@ DOMAIN-SUFFIX,ccb.uncle-ad.com
 DOMAIN-SUFFIX,ccbaihehq.com
 DOMAIN-SUFFIX,ccclub.cmbchina.com
 DOMAIN-SUFFIX,cccrir.com
-DOMAIN-SUFFIX,ccdace.hupu.com
 DOMAIN-SUFFIX,ccr.yxdown.com
 DOMAIN-SUFFIX,cctyly.com
 DOMAIN-SUFFIX,cd.bendibao.com
@@ -2187,7 +2181,6 @@ DOMAIN-SUFFIX,cdgxq.com
 DOMAIN-SUFFIX,cdhoc.piyaji.cn
 DOMAIN-SUFFIX,cdn.0i-i0.com
 DOMAIN-SUFFIX,cdn.5bong.com
-DOMAIN-SUFFIX,cdn.adc.eamobile.com
 DOMAIN-SUFFIX,cdn.adsk2.co
 DOMAIN-SUFFIX,cdn.adstract.com
 DOMAIN-SUFFIX,cdn.aegins.com
@@ -2958,7 +2951,6 @@ DOMAIN-SUFFIX,downloada.dewmobile.net
 DOMAIN-SUFFIX,downloadb.dewmobile.net
 DOMAIN-SUFFIX,downmobile.kugou.com
 DOMAIN-SUFFIX,dp.559.cc
-DOMAIN-SUFFIX,dp.im.weibo.cn
 DOMAIN-SUFFIX,dp3.qq.com
 DOMAIN-SUFFIX,dpm.demdex.net
 DOMAIN-SUFFIX,dps.499.cn
@@ -4149,7 +4141,6 @@ DOMAIN-SUFFIX,img.zuoyebang.cc
 DOMAIN-SUFFIX,img.zx590.com
 DOMAIN-SUFFIX,img0.egou.com
 DOMAIN-SUFFIX,img01.taotaosou.cn
-DOMAIN-SUFFIX,img09.zhaopin.com
 DOMAIN-SUFFIX,img1.126.net
 DOMAIN-SUFFIX,img1.18183.com
 DOMAIN-SUFFIX,img1.jintang114.org
@@ -4820,7 +4811,6 @@ DOMAIN-SUFFIX,load77.exelator.com
 DOMAIN-SUFFIX,loading.baofeng5.baofeng.net
 DOMAIN-SUFFIX,loadm.exelator.com
 DOMAIN-SUFFIX,loandatec.com
-DOMAIN-SUFFIX,localhost
 DOMAIN-SUFFIX,localnetwork.uop
 DOMAIN-SUFFIX,localytics.com
 DOMAIN-SUFFIX,location.ximalaya.com
@@ -4874,7 +4864,6 @@ DOMAIN-SUFFIX,lyapi.1391.com
 DOMAIN-SUFFIX,lycos-eu.imrworldwide.com
 DOMAIN-SUFFIX,lyhdream.com
 DOMAIN-SUFFIX,lyjk.1391.com
-DOMAIN-SUFFIX,lylog.1391.com
 DOMAIN-SUFFIX,lynndollin.com
 DOMAIN-SUFFIX,lyrymy.com
 DOMAIN-SUFFIX,lytubaobao.com
@@ -5574,8 +5563,6 @@ DOMAIN-SUFFIX,nav.winasdaq.com
 DOMAIN-SUFFIX,navi.gd.chinamobile.com
 DOMAIN-SUFFIX,nbhxgjz.com
 DOMAIN-SUFFIX,nbjjd.com
-DOMAIN-SUFFIX,nbsdk-baichuan.alicdn.com
-DOMAIN-SUFFIX,nbsdk-baichuan.taobao.com
 DOMAIN-SUFFIX,nbzq.net
 DOMAIN-SUFFIX,nc.gdt.qq.com
 DOMAIN-SUFFIX,nc004x.corp.youdao.com
@@ -5813,7 +5800,6 @@ DOMAIN-SUFFIX,p.yizuya.com
 DOMAIN-SUFFIX,p.ynjczy.net
 DOMAIN-SUFFIX,p0y.cn
 DOMAIN-SUFFIX,p1.18zhongyao.com
-DOMAIN-SUFFIX,p1.music.126.net
 DOMAIN-SUFFIX,p1.qinsx.cn
 DOMAIN-SUFFIX,p2.hyz86.com
 DOMAIN-SUFFIX,p2.qinsx.cn
@@ -6329,7 +6315,6 @@ DOMAIN-SUFFIX,res.cocounion.com
 DOMAIN-SUFFIX,res.dxpmedia.com
 DOMAIN-SUFFIX,res.icast.cn
 DOMAIN-SUFFIX,res.ipingke.com
-DOMAIN-SUFFIX,res.mi.baidu.com
 DOMAIN-SUFFIX,res.mmstat.com
 DOMAIN-SUFFIX,res.qhupdate.com
 DOMAIN-SUFFIX,res3.feedsportal.com
@@ -7598,7 +7583,6 @@ DOMAIN-SUFFIX,watson.microsoft.com
 DOMAIN-SUFFIX,wazero.online
 DOMAIN-SUFFIX,wb.gtimg.com
 DOMAIN-SUFFIX,wbapp.mobile.sina.cn
-DOMAIN-SUFFIX,wbapp.uve.weibo.com
 DOMAIN-SUFFIX,wbclick.mobile.sina.cn
 DOMAIN-SUFFIX,wbpctips.mobile.sina.cn
 DOMAIN-SUFFIX,wbwl.houyi.baofeng.net
@@ -8430,6 +8414,3 @@ IP-CIDR,67.229.224.28/32,no-resolve
 IP-CIDR,69.28.57.245/32,no-resolve
 IP-CIDR,74.117.182.77/32,no-resolve
 IP-CIDR,78.140.131.214/32,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve

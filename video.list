@@ -11,8 +11,10 @@ DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 
-// Amazon
+// Amazon Prime Video
+USER-AGENT,Prime%20Video*
 DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazonvideo.com
 
 // Bahamut
 USER-AGENT,Anime*
@@ -94,6 +96,9 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
 
+// Pandora
+DOMAIN-SUFFIX,pandora.com
+
 // SoundCloud
 USER-AGENT,SoundCloud*
 
@@ -107,6 +112,8 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,viu.tv
 
 // Youtube
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com

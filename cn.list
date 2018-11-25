@@ -1,28 +1,43 @@
-# China Apps
-USER-AGENT,MApi*
-USER-AGENT,MicroMessenger*
+// Client
+PROCESS-NAME,ss-local
+
+// UA
+USER-AGENT,hide*
+USER-AGENT,TeamViewer*
+USER-AGENT,TIM*
+USER-AGENT,ting_en
+USER-AGENT,WebTorrent*
 USER-AGENT,WeChat*
-# Ali
-DOMAIN-KEYWORD,alipay
-DOMAIN-KEYWORD,taobao
-DOMAIN-KEYWORD,alicdn
-DOMAIN-KEYWORD,aliyun
-DOMAIN-SUFFIX,cn
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,mi.com
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,youku.com
-# Misc
-DOMAIN-SUFFIX,biquge.com.tw
-DOMAIN-SUFFIX,ip.bjango.com
-DOMAIN-SUFFIX,moke.com
-DOMAIN-SUFFIX,maoyun.tv
-DOMAIN-SUFFIX,zmzapi.com
-DOMAIN-SUFFIX,zimuzu.tv
-DOMAIN-SUFFIX,zmzfile.com
-DOMAIN-SUFFIX,zmzapi.net
-DOMAIN-SUFFIX,17app.co
+
+// Beplay
+DOMAIN-KEYWORD,beplay
+
+// Blizzard
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,blizzard.com
+
+// Prior
+DOMAIN,client.amplifi.com
+DOMAIN,ip.bjango.com
+DOMAIN-SUFFIX,alphassl.com
+DOMAIN-SUFFIX,edu.cn
+
+// Steam
+DOMAIN-SUFFIX,steamcontent.com
+
+// TeamViewer
+IP-CIDR,185.188.32.0/24,no-resolve
+IP-CIDR,185.188.33.0/24,no-resolve
+IP-CIDR,185.188.34.0/24,no-resolve
+IP-CIDR,185.188.35.0/24,no-resolve
+IP-CIDR6,2a0b:b580::/48,no-resolve
+IP-CIDR6,2a0b:b581::/48,no-resolve
+IP-CIDR6,2a0b:b582::/48,no-resolve
+IP-CIDR6,2a0b:b583::/48,no-resolve
+
+
+# Domestic
 
 DOMAIN-SUFFIX,cn
 
@@ -141,11 +156,9 @@ DOMAIN-SUFFIX,lucifr.com
 DOMAIN-SUFFIX,luoo.net
 DOMAIN-SUFFIX,lxdns.com
 DOMAIN-SUFFIX,mai.tn
-DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,meizu.com
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,miaopai.com
-DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mob.com
@@ -155,6 +168,7 @@ DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,mxhichina.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,myunlu.com
+DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,nfoservers.com
 DOMAIN-SUFFIX,nssurge.com

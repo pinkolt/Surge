@@ -512,6 +512,7 @@ DOMAIN-SUFFIX,juicyads.com
 DOMAIN-SUFFIX,beap.gemini.yahoo.com
 DOMAIN-SUFFIX,ads.yap.yahoo.com
 DOMAIN-KEYWORD,appier.net
+DOMAIN-KEYWORD,exosrv.com
 
 IP-CIDR,117.177.248.17/32,no-resolve
 IP-CIDR,117.177.248.41/32,no-resolve

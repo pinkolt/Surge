@@ -1,3 +1,19 @@
+# MY
+DOMAIN-SUFFIX,m.addthis.com
+DOMAIN-SUFFIX,exelator.com
+DOMAIN-SUFFIX,exoclick.com
+DOMAIN-SUFFIX,histats.com
+DOMAIN-SUFFIX,crwdcntrl.net
+DOMAIN-SUFFIX,contentabc.com
+DOMAIN-SUFFIX,bluekai.com
+DOMAIN-SUFFIX,juicyads.com
+DOMAIN-SUFFIX,beap.gemini.yahoo.com
+DOMAIN-SUFFIX,ads.yap.yahoo.com
+DOMAIN-KEYWORD,appier.net
+DOMAIN-KEYWORD,exosrv.com
+DOMAIN-KEYWORD,sexy-more.com
+DOMAIN-KEYWORD,lovesexbody.com
+
 # Baidu
 DOMAIN-SUFFIX,a.baidu.com
 DOMAIN-SUFFIX,ad.duapps.com
@@ -500,20 +516,6 @@ DOMAIN-SUFFIX,val.api.youku.com
 DOMAIN-SUFFIX,wan.youku.com
 DOMAIN-SUFFIX,ykatr.youku.com
 DOMAIN-SUFFIX,ykrec.youku.com
-# MY
-DOMAIN-SUFFIX,m.addthis.com
-DOMAIN-SUFFIX,exelator.com
-DOMAIN-SUFFIX,exoclick.com
-DOMAIN-SUFFIX,histats.com
-DOMAIN-SUFFIX,crwdcntrl.net
-DOMAIN-SUFFIX,contentabc.com
-DOMAIN-SUFFIX,bluekai.com
-DOMAIN-SUFFIX,juicyads.com
-DOMAIN-SUFFIX,beap.gemini.yahoo.com
-DOMAIN-SUFFIX,ads.yap.yahoo.com
-DOMAIN-KEYWORD,appier.net
-DOMAIN-KEYWORD,exosrv.com
-DOMAIN-KEYWORD,sexy-more.com
 
 IP-CIDR,117.177.248.17/32,no-resolve
 IP-CIDR,117.177.248.41/32,no-resolve

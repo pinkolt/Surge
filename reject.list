@@ -16,6 +16,7 @@ DOMAIN-KEYWORD,lovesexbody.com
 DOMAIN-KEYWORD,tenh2.cn
 DOMAIN-KEYWORD,xhera.cn
 DOMAIN-KEYWORD,aichuangfu.cn
+URL-REGEX,^http:\/\/198\.11\.188\.24:80\/amdc\/mobileDispatch$
 
 # Baidu
 DOMAIN-SUFFIX,a.baidu.com

@@ -20,8 +20,10 @@ IP-CIDR,192.35.50.0/24,no-resolve
 IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
 
-# > Apple News
-DOMAIN-SUFFIX,apple.news
+# AppleTV
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
 
 # > Apple Maps
 PROCESS-NAME,com.apple.geod

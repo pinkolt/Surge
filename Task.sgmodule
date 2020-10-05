@@ -262,13 +262,6 @@ cron "0 18 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/ma
 # 微信小程序 - 喜马拉雅 - 我的： 签到 “ 获取 Cookie
 cron "40 11 8 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js
 
-# > Funboat  (By Evilbutcher)
-# 微信搜索小程序Funboat，如想购买Funko手办可关注。点我的，提示获取积分Cookie成功，手动签到一次，提示获取签到Cookie成功，即可使用。
-cron "5 0 * * *" tag=Funboat签到, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/funboat/funboat.js
-
-# > 小木虫论坛(By toulanboy)
-# 打开小木虫app => 发现页面 => 签到领红包 => 拆红包。
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/muchong/muchong.js, timeout=600
 
 # > qq会员成长值签到 (By @lowking0415)
 # 手机qq进入左侧会员，滑动即可

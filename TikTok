@@ -1,0 +1,11 @@
+#!name=TikTok
+#!desc=解除 TikTok 区域限制。
+#!system=ios
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) url 307 KR
+(?<=&app_version=)1[7-9]..(?=.?.?&) url 307 1
+(?<=\?version_code=)1[7-9]..(?=.?.?&) url 307 1
+
+[MITM]
+hostname = %INSERT% *.musical.ly, *.tiktokv.com, *.byteoversea.com, *.snssdk.com

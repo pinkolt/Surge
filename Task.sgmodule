@@ -133,7 +133,7 @@ cron "10 10 8 * * *" script-path=https://raw.githubusercontent.com/barrym-chen/S
 cron "0 7-23 * * *" script-path=https://github.com/congcong0806/surge-list/raw/master/Script/time.js, tag=今日时间
 
 # MeetaGit    https://github.com/MeetaGit/MeetaRules/tree/master/Surge
-cron "0 0/5 13-23 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Custom_Js/lottery_xyft.js, tag=幸运飞艇
+
 cron "0 0 8,18 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/Surge/Scripting/Calendar.js, tag=一言+历史上的今天
 cron "0 0 8-20/1 * * *" script-path=https://raw.githubusercontent.com/MeetaGit/MeetaRules/m%CE%B1ster/Surge/Scripting/meweather.js, tag=meweather
 

@@ -134,16 +134,16 @@ cron "29 8 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/ma
 
 # lowking   https://github.com/lowking/Scripts
 
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js, tag=qq会员成长值
+#cron "5 0 * * *" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js, tag=qq会员成长值
 
-cron "0 0 0,2 * * *" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQPet/lkQQPet.js, tag=QQ萌宠
+#cron "0 0 0,2 * * *" script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQPet/lkQQPet.js, tag=QQ萌宠
 
 
 
 
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/oneSay/oneSay.js, tag=每日一言
 cron "0 0 8 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/historyToday/index.js, tag=历史上的今天,
-cron "3 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js, tag=生日倒计时
+#cron "3 0 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/birthdayCountDown/index.js, tag=生日倒计时
 cron "0 0 0,2 * * *" script-path=https://raw.githubusercontent.com/dompling/Script/master/xiaomiyp/xiaomiyp.js, tag=小米有品
 
 

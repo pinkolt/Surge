@@ -56,6 +56,8 @@ cron "0 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scri
 cron "10 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zaker/zaker.js,tag=Zaker
 
 cron "30 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dbsj/dbsj.js,tag=豆瓣时间
+
+http-request ^https:\/\/gameapi\.hellobike\.com\/api script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, requires-body=true
 cron "40 8 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js,tag=哈啰出行
 
 cron "0 0 * * * *" script-path= https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,tag=趣头条

@@ -1,5 +1,6 @@
 #!name=Script Module
 #!desc=iOS Script 模块配置
+
 [Script]
 #微博
 http-response ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
@@ -14,6 +15,10 @@ http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness
 #淘宝历史价格
 http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+# 微信去广告
+http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
+# > 微信 App 内被屏蔽链接快捷跳转
+weixin110.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi,script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Script/weixin110.js
 
 [MITM]
-hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,ios.prod.ftl.netflix.com,api.m.jd.com,trade-acs.m.taobao.com
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com,ios.prod.ftl.netflix.com,api.m.jd.com,trade-acs.m.taobao.com,weixin110.qq.com,mp.weixin.qq.com

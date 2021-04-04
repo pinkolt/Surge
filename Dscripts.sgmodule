@@ -1,5 +1,5 @@
-#!name=Script Module
-#!desc=iOS Script 模块配置
+#!name=插件模块
+#!desc=自用 Script 模块配置
 
 [Script]
 #微博

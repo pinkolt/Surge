@@ -3,7 +3,7 @@
 
 [Script]
 #vsco
-http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ script-path= https://raw.githubusercontent.com/langkhach270389/Scripting/master/vsco.js
+VSCO = type=http-response,pattern=http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/langkhach270389/Scripting/master/vsco.js,script-update-interval=-1
 
 #gyroscope
 http-response ^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Gyroscope.vip.js

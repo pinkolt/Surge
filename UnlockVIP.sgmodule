@@ -1,5 +1,5 @@
-#!name=UnlockVIP
-#!desc=解锁VIP
+#!name=自用UnlockVIP模块
+#!desc=自定义维护
 
 [Script]
 #vsco

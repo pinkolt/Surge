@@ -1,5 +1,5 @@
-#!name=插件模块
-#!desc=自用 Script 模块配置
+#!name=自用Script插件模块
+#!desc=自定义维护
 
 [Script]
 #微博

@@ -1,5 +1,5 @@
-#!name=TikTok
-#!desc=解除 TikTok 区域限制。
+#!name=自用TikTok模块
+#!desc=自定义维护
 #!system=ios
 
 [URL Rewrite]

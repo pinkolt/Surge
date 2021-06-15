@@ -115,6 +115,32 @@ http-request ^https?://m?api\.weibo\.c(n|om)\/2\/(cardlist|page\/button|page) sc
 # zZPiglet  
 # 微博通知
 微博通知Cookie = type=http-request,pattern=^https:\/\/m\.weibo\.cn\/feed\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
+# 来客有礼 Cookie.
+来客有礼 Cookie = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/lkyl.js
+# 腾讯新闻
+腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/txnews.js, requires-body=true
+
+# 新浪新闻
+新浪新闻 = type=http-request,pattern=https:\/\/newsapi\.sina\.cn\/\?resource=hbpage&newsId=HB-1-sina_gold_center,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/sinanews.js
+
+新浪新闻 = type=http-request,pattern=https:\/\/newsapi\.sina\.cn\/\?resource=userpoint\/signIn,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/sinanews.js
+
+# 新浪微博
+微博签到 = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/page\/\w+\?gsid,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/weibo.js
+
+# 微博钱包签到
+钱包签到 = type=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/weibo.js
+
+# 快手极速版
+快手极速版 = type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\?,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/kuaishou.js
+
+# 来客有礼
+来客有礼 = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/lkyl.js
+
+# 电视家
+电视家签到 = type=http-request,pattern=http:\/\/act\.gaoqingdianshi\.com\/\/api\/v4\/sign\/signin,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/dianshijia.js
+
+电视家兑换 = type=http-request,pattern=http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/dianshijia.js
 
 
 # Peng-YM (weather-data.apple.com, api.weather.com)

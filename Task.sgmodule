@@ -3,6 +3,16 @@
 #!system=ios
 
 [Script]
+# 美团
+cron "6 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,wake-system=1
+# 腾讯视频
+cron "3 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,wake-system=1
+
+# 顺丰
+cron "0 7 * * *" ,wake-system=1,timeout=36000,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js
+
+# 华住会
+华住会 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js
 
 # By zZPigle   GitHub：https://github.com/zZPiglet/Task/tree/master
 cron "0 9 8 * * *" script-path=https://raw.githubusercontent.com/pinkolt/Surge/master/JS/elemCheckIn.js, tag=饿了么-打卡领红包
@@ -10,11 +20,7 @@ cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/pinkolt/Surge/
 #cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/pinkolt/Surge/master/JS/DiDi_drink.js, tag=滴滴喝水
 #cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/pinkolt/Surge/master/JS/DiDi_sleep.js, tag=滴滴睡觉
 
-cron "1 4 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js, tag=奈雪
 
-cron "0 22 7 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Alipay/Alipay.js, tag=Alipay
-
-cron "0 1,20 * * *" script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
 
 # By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
 cron "15 1 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东
@@ -42,7 +48,7 @@ cron "0 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scri
 
 cron "20 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,tag=V2EX
 
-cron "30 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,tag=腾讯视频
+#cron "30 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,tag=腾讯视频
 
 cron "40 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,tag=喜马拉雅
 
@@ -58,7 +64,7 @@ cron "40 3 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scr
 
 cron "30 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js,tag= 美团外卖
 
-cron "40 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,tag=美团
+#cron "40 5 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,tag=美团
 
 cron "30 6 8 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.js,tag=樊登读书
 

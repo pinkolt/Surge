@@ -12,8 +12,8 @@ http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=http
 http-request ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js, tag=elem
 
 # 滴滴 （as.xiaojukeji.com）
-http-request ^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
-http-request ^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行
+http-request ^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? script-path=https://raw.githubusercontent.com/pinkolt/Surge/master/JS/DiDi_new.js, tag=滴滴出行
+http-request ^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\? script-path=https://raw.githubusercontent.com/pinkolt/Surge/master/JS/DiDi_new.js, tag=滴滴出行
 
 # 华住会
 华住会获取签到Cookie = http-request https:\/\/newactivity\.huazhu\.com\/v1\/pointStore\/signIn script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hzh/hzh.js, requires-body=true
